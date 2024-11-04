@@ -1,0 +1,9 @@
+.image{
+    background-image: url('../../../../assets/images/form-page-pic.png');
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: left; 
+    /* background-size: center; */
+    height: 100vh;
+    background-size: cover;
+    /* height: 40px; */
+}

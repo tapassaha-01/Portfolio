@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './patient-form-page.component.css'
 })
 export class PatientFormPageComponent {
-
+    
 }

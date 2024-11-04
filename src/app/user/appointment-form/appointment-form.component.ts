@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './appointment-form.component.css'
 })
 export class AppointmentFormComponent {
-
+  
 }
