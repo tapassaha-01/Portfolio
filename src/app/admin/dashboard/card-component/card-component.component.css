@@ -1,0 +1,43 @@
+
+.cardStyle{
+    width: 400px ;
+    height: 152px;
+    
+    background: linear-gradient(117.58deg, rgba(215, 237, 237, 0.16) -47.79%, rgba(204, 235, 235, 0) 100%);
+    border: 0px solid rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+/* margin: 0 68px 0 68px; */
+
+}
+
+.mainCard{
+    /* display: grid; */
+    /* flex-direction: row;
+    align-items: center;
+    justify-content: center; */
+    gap: 40px;
+    padding-top: 10px;
+}
+
+
+.iconText{
+    display: flex;
+    flex-direction: row;
+    width: 86px;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.textClass{
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.cardText{
+    width: 352px;
+    height: 24px;
+    color: white;
+    margin-left: 10px;
+    margin-top: 20px;
+}

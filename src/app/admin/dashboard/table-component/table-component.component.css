@@ -1,0 +1,52 @@
+.tbody, td, tfoot, th, thead, tr {
+    border-color: inherit;
+    /* border-style: solid; */
+    border-width: 0;
+}
+
+.tableclass{
+    border: 0px solid white;
+    border-radius: 10px !important;
+}
+.scheduledClass{
+    display: flex;
+    width: 40%;
+    border: 1px solid rgb(12, 134, 22);
+    padding: 1px;
+    border-radius: 15px;
+    background-color: rgba(103, 233, 136, 0.5);
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.cancelledClass{
+    display: flex;
+    width: 35%;
+    border: 1px solid rgb(241, 106, 106);
+    padding: 1px;
+    border-radius: 15px;
+    background-color:rgb(241, 106, 106);
+}
+
+.pendingClass{
+    display: flex;
+    width: 35%;
+    border: 1px solid rgb(106, 198, 241);
+    padding: 1px;
+    border-radius: 15px;
+    background-color:rgb(106, 198, 241);
+}
+
+.btn-close {
+    filter: invert(100%); /* Makes the icon white */
+  }
+
+  .modal-header{
+    border-bottom: none;
+  }
+  .modal-footer {
+    border-top: none;
+  }

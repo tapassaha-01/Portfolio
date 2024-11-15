@@ -1,0 +1,31 @@
+<form [formGroup]="form" (ngSubmit)="onSubmit()">
+<div>
+  <div style="color: #ABB8C4; margin-bottom: 10px;">Doctor</div>
+  <div class="input-group" style="background-color: #1A1D21F5;">
+    <!-- Search icon as input-group-prepend -->
+
+    <!-- Input field with datalist -->
+    <fa-icon [icon]="faSearch" class="input-group-text"></fa-icon>
+    <input list="car-options" name="cars" id="cars" class="form-control input-group-text"
+      placeholder="Search for a car" formControlName="doctorName" >
+
+    <datalist id="car-options">
+      <option value="Volvo">
+      <option value="Saab">
+      <option value="Opel">
+      <option value="Audi">
+    </datalist>
+  </div>
+</div>
+<div>
+  <div style="color: #ABB8C4; margin-bottom: 10px;">Reason for appointment</div>
+  <textarea  rows="5" style="width: 100%; background-color: #1A1D21F5;" formControlName="appointmentReason"></textarea>
+</div>
+<div>
+  <div style="color: #ABB8C4; margin-bottom: 10px;">Expected appointment date</div>
+  <input style="background-color: #1A1D21F5;" type="date" placeholder="Select your appointment date" class="form-control" formControlName="appointmentDate">
+</div>
+<div style="width: 100%; margin-top: 30px;">
+  <button style="width: 100%;" type="submit" class="btn btn-success">Success</button>
+</div>
+</form>

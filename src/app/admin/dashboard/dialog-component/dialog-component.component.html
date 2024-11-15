@@ -1,0 +1,30 @@
+<div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content" style="background-color: #1A1D21F5;">
+        <div class="modal-header" style="color: white;">
+  
+          <div>
+            <h1 class="modal-title fs-5" id="exampleModalLabel">{{headerText}}</h1>
+            <p style="margin-top: 20px; font-size: 15px; color: #ABB8C4;">{{headerSubText}}</p>
+          </div>
+          <button style="margin-top: -60px;" type="button" class="btn-close" data-bs-dismiss="modal"
+            aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div>
+            @if(scheduleClick)
+            {
+              <app-scedule-component></app-scedule-component>
+            }@else
+            {
+                <app-cancel-component></app-cancel-component>
+            }
+              
+        </div>
+        <!-- <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div> -->
+      </div>
+    </div>
+  </div>
